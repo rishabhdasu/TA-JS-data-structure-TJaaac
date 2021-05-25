@@ -32,10 +32,22 @@ students["42"] = "The answer to the meaning of life";
 
 // 9. Using `console.log` print the value of key `42` from the `students` object
 
+console.log(students[42]);
+
 // 10. Check the length of object named `students`.
+
+console.log([students].length);
 
 // 11. Can you define a key of `let or var` in any object? Reason.
 
+Yes, we can because let and var are keywords because key is a string.
+
 // 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property
 
+delete students.isAdult;
+console.log(students.isAdult);
+
 // 13. Update the value of the key batch in the object `students` and print it using `console.log`
+
+students.batch = 32;
+console.log(students.batch);
