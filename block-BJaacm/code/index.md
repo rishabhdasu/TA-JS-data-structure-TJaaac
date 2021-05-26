@@ -14,7 +14,7 @@ let newUser = user;
 - Create the memory representation of the above snippet on notebook.
 - Take a photo/screenshot and add it to the folder `code`
 
-![Hello](./hello.jpg) 
+![Hello](./Hello.jpg) 
 
 2. Answer the following with reason:
 
