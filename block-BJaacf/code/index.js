@@ -1,6 +1,16 @@
 // 1. Create an array named numbers and store 5 number values in it
 
+let numbers = [1, 2, 34, 4, 100];
+
 // 2. Calculate the sum of array items and print it to the console using console.log()
+
+let sum = 0;
+
+for(let i = numbers[0]; i <= numbers[numbers.length - 1]; i++){
+    sum += i;
+}
+
+console.log(sum);
 
 // 3. Calculate the average of array items and print it to the console using console.log()
 
